@@ -1,0 +1,99 @@
+[[contributor template]]
+= Contributor's Guide Template
+
+This guide is meant to assist contributors to the [project name] documentation.
+
+== Simple Edits
+
+Anyone can make small changes, like fixing a typo, in the GitHub web interface.
+
+This method is useful for typos and simple additions or changes to a single file.
+
+NOTE: You must have a GitHub account to make or propose changes.  https://github.com/join
+
+. In the GitHub repository, navigate to the file you want to edit.
+. Click the file name to open it in GitHub.
+. Click the edit icon near the top right of the page contents. The icon looks like a pencil and the hover text reads "Fork this project and edit the file."  GitHub opens an editing page with the following message:
++
+----
+You’re editing a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request.
+----
++
+. Make your edits.
+. Enter a title and description of your changes in the *Propose File Changes* section at the bottom of the page. Enter enough detail for reviewers to know what you have changed and why.
+. Enter your e-mail address.
+. Click the *Propose file change* button.
+
+== Files and layout
+
+How are files arranged in your documentation project?  Even if someone is going to make an edit through the Web interface, they still need to be able to find the file in your project.
+
+* Where can you find the content (text) files?
+* Where should you store images and graphics?
+* Is there a variable or attributes file?
+* Is there a topic map?
+* Is there a folder for shared content such as snippets or common files?
+* Is there a folder for code samples?
+
+== Tools
+What markup language are you using to create your documentation files?  Include links to cheat sheets for people who may need to refresh their memory.  For example:
+
+* markdown (which flavor, common, GitHub, etc.)
+** https://github.github.com/gfm/
+** https://help.github.com/en/articles/basic-writing-and-formatting-syntax
+** https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+* asciidoc
+** https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+** http://asciidoc.org/userguide.html
+* HTML
+** https://www.w3schools.com/html/
+
+
+What tools are you using to generate your output?  Include links to downloads.  For example:
+
+* GitHub Pages https://pages.github.com/
+* Hugo  https://gohugo.io/
+* Jekyll  https://jekyllrb.com/
+
+Do your tools have dependencies? For example:
+
+* Asciidoctor
+* Python
+* Ruby
+
+== Setting up Git
+
+Most non-developers may not have experience with Git, but still want to contribute to the documentation.  Help them out by providing links to get started with Git.
+
+Installing Git
+https://help.github.com/en/articles/set-up-git
+https://github.com/red-hat-openjdk/docs/blob/master/contributing/git-setup-guide.adoc
+
+Forking a repo
+https://help.github.com/en/articles/fork-a-repo
+
+Git cheatsheets
+https://github.github.com/training-kit/
+
+
+== Contributing
+
+* Does your project have https://github.com/redhat-documentation/modular-docs[templates] for documentation?
+* Does your project have a file naming convention?
+* Does your project have a style guide?
+* Does your project have screenshot or graphics standards?  A preferred graphics file format (.png, .svg)?
+* What are the processes for reviewing content submissions?
+* Do contributors need to sign their PRs?
+* Does your project have any guidelines around https://chris.beams.io/posts/git-commit/[commit messages]?
+
+
+== Other Useful Links
+
+https://opensource.guide/how-to-contribute/[How to contribute to Open Source]
+
+The Red Hat documentation team has started publishing resources to a https://github.com/redhat-documentation[public repo].
+
+The https://github.com/red-hat-openjdk/docs[OpenJDK documentation] has a good example contributor's guide.
+
+The  https://github.com/keycloak/keycloak-documentation[Keycloak documentation] also has a good example contributor's guide.
